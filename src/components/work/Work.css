@@ -1,0 +1,206 @@
+.Work {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Work .Work-row{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 40px;
+}
+
+.Work .Work-row .Box_work{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.Work .Work-row .Box_work img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid #475569;
+    background: #1C2126;
+    object-position: right top;
+}
+
+.Work .Work-row .Box_work a{
+    text-decoration: none;
+    color: #1466B8;
+}
+
+.Work .Work-row .Box_work a h2{
+    margin: 0px;
+}
+
+.Work .Work-row .light-mode h3{
+    margin: 0px;
+    color: #3D4754;;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.Work .Work-row .dark-mode h3{
+    margin: 0px;
+    color: #9EABB8;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.Work .Work-row ul {
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.Work .Work-row .dark-mode ul li{
+    background: #1C2126;
+    padding: 8px 6px;
+    border-radius: 10px;
+    border: 1px solid #475569;
+    transition: all 0.3s ease-in-out;
+}
+
+.Work .Work-row .dark-mode ul li:hover{
+    background: #293036;
+    transform: scale(1.1);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    
+}
+
+.Work .Work-row .light-mode ul li{
+    background: #1C2126;
+    color: #FFFFFF;
+    padding: 8px 6px;
+    border-radius: 10px;
+    border: 1px solid #475569;
+    transition: all 0.3s ease-in-out;
+}
+
+.Work .Work-row .light-mode ul li:hover{
+    background: #293036;
+    transform: scale(1.1);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    
+}
+
+.Work .Work-row-back {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 40px;
+    align-items: start;
+}
+
+.Work .Work-row-back .Box_work_back {
+    margin: 40px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.Work .Work-row-back .Box_work_back {
+    margin: 40px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.Work .Work-row-back .Box_work_back .img_work_back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #475569;
+    background: #1C2126;
+    width: 100%;
+    height: 200px;
+}
+
+.Work .Work-row-back .Box_work_back .img_work_back img{
+    width: 100px;
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.Work .Work-row-back .Box_work_back .img_work_back img:hover{
+    transform: scale(1.1);
+}
+
+.Work .Work-row-back .Box_work_back a{
+    text-decoration: none;
+    color: #1466B8;
+}
+
+.Work .Work-row-back .dark-mode h3{
+    margin: 0px;
+    color: #9EABB8;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.Work .Work-row-back .light-mode h3{
+    margin: 0px;
+    color: #3D4754;
+    font-weight: 400;
+    font-size: 14px
+}
+
+.Work .Work-row-back .Box_work_back a h2{
+    margin: 0px;
+}
+
+.Work .Work-row-back .Box_work_back ul {
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.Work .Work-row-back .Box_work_back ul li{
+    background: #1C2126;
+    color: #FFFFFF;
+    padding: 8px 6px;
+    border-radius: 10px;
+    border: 1px solid #475569;
+    transition: all 0.3s ease-in-out;
+}
+
+.Work .Work-row-back .Box_work_back ul li:hover{
+    background: #293036;
+    transform: scale(1.1);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width:1024px) {
+    .Work .Work-row-back {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width:425px) {
+    .Work .Work-row {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 20px;
+        grid-row-gap: 40px;
+    }
+    
+    .Work .Work-row-back {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 20px;
+    }
+}

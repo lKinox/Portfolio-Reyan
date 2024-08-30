@@ -1,0 +1,246 @@
+.App-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1920px;
+    width: 100%;
+    height: 40px;
+    padding: 12px 40px;
+    position: relative;
+}
+
+.App-header .sc-block {
+    display: flex;
+    flex-direction: row;
+}
+
+.App-header ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.App-header li {
+    margin-right: 10px;
+    padding: 8px 6px;
+    border-radius: 10px;
+    transform: scale(0.9);
+    transition: background .6s, transform .3s;
+}
+
+.App-header .sc-block .dark-mode li:hover {
+    background: #475569;
+    transform: scale(1);
+}
+
+.App-header .sc-block .light-mode li:hover {
+    background: #9b9fa2;
+    transform: scale(1);
+}
+
+.App-header li a{
+    text-decoration: inherit;
+    background: transparent !important;
+}
+
+.App-header button{
+    border-radius: 10px;
+    border: 0px;
+    padding: 0px 9px;
+    background: transparent;
+    transition: background .6s;
+}
+
+.App-header button.dark-mode:hover{
+    background: #475569;
+}
+
+.App-header button.light-mode:hover{
+    background: #9b9fa2;
+}
+
+.App-header button span{
+    font-size: 20px !important;
+    background: transparent !important;
+}
+
+.App-header .language-switch {
+    margin-left: 10px;
+    display: flex;
+    border: 1px solid #9EABB8;
+    border-radius: 10px;
+    position: relative;
+    z-index: 2;
+    background: #3D4754; 
+    color: #FFFFFF;
+}
+
+.App-header .language-switch button {
+    color: #FFFFFF;
+    border-radius: 6px;
+}
+
+.App-header .language-switch button:hover {
+    background: transparent !important ; 
+}
+
+.App-header .language-switch .active {
+    color: #1C2126 !important;
+    background: transparent !important; 
+}
+
+.App-header .language-switch .language-box {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background-color: #ccc; /* Color de fondo de la caja */
+    transition: transform 0.3s ease-in-out;
+    border-radius: 7px;
+}
+
+.App-header .language-switch .language-box.right {
+    transform: translateX(100%);
+}
+
+.App-header .nav-sec {
+    display: none;
+    gap: 5px;
+}
+
+.App-header .nav-sec button {
+    border-radius: 10px;
+    border: 0px;
+    padding: 6px 7.5px;
+    background: transparent;
+    transition: background .6s;
+}
+
+.App-header .nav-sec.dark-mode button:hover {
+    background: #475569;
+}
+
+.App-header .nav-sec.light-mode button:hover {
+    background: #9b9fa2;
+}
+
+.App-header .nav-sec.dark-mode .nav-mob.disable {
+    width: 0%;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: #121417;
+    transition: width .6s ease-in-out, margin-right .6s ease-in-out;
+    overflow: hidden;
+    padding: 14px 12px;
+    margin-right: -25px;
+}
+
+.App-header .nav-sec.light-mode .nav-mob.disable {
+    width: 0%;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: #FFFFFF;
+    transition: width .6s ease-in-out, margin-right .6s ease-in-out;
+    overflow: hidden;
+    padding: 14px 12px;
+    margin-right: -25px;
+}
+
+.App-header .nav-sec.dark-mode .nav-mob.enable {
+    height: 100vh;
+    width: 80%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: #121417;
+    transition: width .6s ease-in-out;
+    padding: 14px 12px;
+}
+
+.App-header .nav-sec.light-mode .nav-mob.enable {
+    height: 100vh;
+    width: 80%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: #FFFFFF;
+    transition: width .6s ease-in-out;
+    padding: 14px 12px;
+}
+
+.App-header .nav-sec .hidden {
+    display: none;
+}
+
+.App-header .nav-sec .enabled {
+    display: flex;
+}
+.App-header .nav-mob-btn {
+    display: flex;
+    align-items: center;
+}
+
+.App-header .nav-mob-btn span {
+    font-size: 30px;
+    padding: 3px 3px;
+}
+
+.App-header .nav-sec.dark-mode .nav-mob-btn span:hover {
+    background: #475569;
+    border-radius: 7px;
+}
+
+.App-header .nav-sec.light-mode .nav-mob-btn span:hover {
+    background: #9b9fa2;
+    border-radius: 10px;
+}
+
+.App-header .nav-sec .nav-mob {
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #9EABB8;
+}
+
+.App-header .nav-sec .nav-mob .nav-mob-menu ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.App-header .nav-sec .nav-mob .nav-mob-menu ul li{
+    font-size: 30px;
+    padding: 12px 10px;
+    transform: scale(1);
+}
+
+.App-header .nav-sec .nav-mob .nav-mob-menu .language-switch{
+    max-width: 200px;
+    margin-top: 20px;
+}
+
+.App-header .nav-sec .nav-mob .nav-mob-menu .language-switch .langES, .App-header .nav-sec .nav-mob .nav-mob-menu .language-switch .langEN{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    font-size: 30px;
+}
+
+.App-header .nav-sec .nav-mob .nav-mob-menu .language-switch button {
+    font-size: 24px;
+}
+
+@media screen and (max-width:1024px) {
+    .App-header .sc-block {
+        display: none;
+    }
+    .App-header .nav-sec {
+        display: flex;
+    }
+}
+

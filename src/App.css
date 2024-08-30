@@ -1,0 +1,95 @@
+#root {
+  width: 100%;
+  margin: 0 0;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+  animation: logo-spin infinite 1s linear
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.header-container {
+  width: 100%;
+  border-bottom: 1px solid #9EABB8;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  padding: 100px 100px 20px 100px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-box {
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 0px 20px 0px;
+}
+
+.footer-container {
+  align-items: center;
+  border-top: 1px solid #475569;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 12px 100px;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 1s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+@media screen and (max-width:1024px) {
+  .main-container {
+    padding: 100px 40px 20px 40px;
+  }
+  .footer-container {
+    padding: 12px 40px;
+  }
+}
+
+@media screen and (max-width:425px) {
+  .main-container {
+    padding: 100px 20px 20px 20px;
+  }
+  .footer-container {
+    padding: 12px 20px;
+  }
+}
