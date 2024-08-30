@@ -75,30 +75,30 @@ function Resume() {
       <div className="Resume-row">
         <Box_resume skillName="HTML" text={`${4} ${t('Years')}`} img={htmlLogo} percentage={90} icon="🔥" />
         <Box_resume skillName="CSS" text={`${4} ${t('Years')}`} img={cssLogo} percentage={90} icon="🔥" />
-        <Box_resume skillName="JS" text={`${3} ${t('Years')}`} img={jsLogo} percentage={60} icon="" />
+        <Box_resume skillName="JS" text={`${3} ${t('Years')}`} img={jsLogo} percentage={70} icon="" />
         <Box_resume skillName="React" text={`${2} ${t('Years')}`} img={reactLogo} percentage={50} icon="" />
-        <Box_resume skillName="Wordpress" text={`${4} ${t('Years')}`} img={wordpressLogo} percentage={65} icon="" />
+        <Box_resume skillName="Wordpress" text={`${4} ${t('Years')}`} img={wordpressLogo} percentage={75} icon="" />
       </div>
       <h3>{t('Resume_h3_back')}</h3>
       <div className="Resume-row">
-        <Box_resume skillName="Python" text={`${3} ${t('Years')}`} img={pythonLogo} percentage={65} icon="🔥" />
-        <Box_resume skillName="Flask" text={`${3} ${t('Years')}`} img={flaskLogo} percentage={65} icon="🔥" />
-        <Box_resume skillName="Django" text={`${">1"} ${t('Year')}`} img={djangoLogo} percentage={40} icon="" />
+        <Box_resume skillName="Python" text={`${3} ${t('Years')}`} img={pythonLogo} percentage={70} icon="🔥" />
+        <Box_resume skillName="Flask" text={`${3} ${t('Years')}`} img={flaskLogo} percentage={70} icon="🔥" />
+        <Box_resume skillName="Django" text={`${">1"} ${t('Year')}`} img={djangoLogo} percentage={50} icon="" />
         <Box_resume skillName="PHP" text={`${3} ${t('Years')}`} img={phpLogo} percentage={40} icon="" />
       </div>
       <h3>{t('Resume_h3_db')}</h3>
       <div className="Resume-row">
-        <Box_resume skillName="SQL" text={`${3} ${t('Years')}`} img={sqlLogo} percentage={60} icon="" />
+        <Box_resume skillName="SQL" text={`${3} ${t('Years')}`} img={sqlLogo} percentage={70} icon="" />
         <Box_resume skillName="MySQL" text={`${3} ${t('Years')}`} img={mysqlLogo} percentage={60} icon="" />
         <Box_resume skillName="SQLite" text={`${2} ${t('Years')}`} img={sqliteLogo} percentage={70} icon="" />
         <Box_resume skillName="Firebase" text={`${1} ${t('Year')}`} img={firebaseLogo} percentage={50} icon="" />
       </div>
       <h3>{t('Resume_h3_devops')}</h3>
       <div className="Resume-row">
-        <Box_resume skillName="AWS" text={`${1} ${t('Year')}`} img={awsLogo} percentage={10} icon="" />
-        <Box_resume skillName="Google Cloud" text={`${1} ${t('Year')}`} img={googlecloudLogo} percentage={10} icon="" />
-        <Box_resume skillName="cPanel" text={`${3} ${t('Years')}`} img={cpanelLogo} percentage={60} icon="" />
-        <Box_resume skillName="Git" text={`${3} ${t('Years')}`} img={gitLogo} percentage={50} icon="" />
+        <Box_resume skillName="AWS" text={`${1} ${t('Year')}`} img={awsLogo} percentage={30} icon="" />
+        <Box_resume skillName="Google Cloud" text={`${1} ${t('Year')}`} img={googlecloudLogo} percentage={30} icon="" />
+        <Box_resume skillName="cPanel" text={`${3} ${t('Years')}`} img={cpanelLogo} percentage={80} icon="" />
+        <Box_resume skillName="Git" text={`${3} ${t('Years')}`} img={gitLogo} percentage={60} icon="" />
       </div>
     </div>
   );
