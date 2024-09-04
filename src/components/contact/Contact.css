@@ -37,3 +37,31 @@
     transform: scale(1.1);
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
 }
+
+.Contact .CV-button-mob{
+    font-size: 16px;
+    background: #1466B8;
+    color: #FFFFFF;
+    padding: 8px 12px;
+    border-radius: 10px;
+    border: 1px solid #FFFFFF;
+    transition: all 0.3s ease-in-out;
+    display: none;
+    align-items: center;
+    text-decoration: none;
+}
+
+.Contact .CV-button-mob:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width:1024px) {
+    .Contact .CV-button {
+        display: none;
+    }
+    
+    .Contact .CV-button-mob {
+        display: flex;
+    }
+}
