@@ -214,13 +214,13 @@
 }
 
 .App-header .nav-sec .nav-mob .nav-mob-menu ul li{
-    font-size: 30px;
+    font-size: 20px;
     padding: 12px 10px;
     transform: scale(1);
 }
 
 .App-header .nav-sec .nav-mob .nav-mob-menu .language-switch{
-    max-width: 200px;
+    max-width: 180px;
     margin-top: 20px;
 }
 
@@ -232,7 +232,8 @@
 }
 
 .App-header .nav-sec .nav-mob .nav-mob-menu .language-switch button {
-    font-size: 24px;
+    font-size: 21px;
+    line-height: 1.3;
 }
 
 @media screen and (max-width:1024px) {
