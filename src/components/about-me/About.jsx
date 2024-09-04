@@ -3,6 +3,7 @@ import './About.css';
 import { useTranslation } from 'react-i18next';
 import { useLottie } from "lottie-react";
 import aboutAnimation from "/src/components/animations/about_animation.json";
+import CV from "/src/components/doc/CV.pdf";
 
 const Animation = () => {
   const options = {
@@ -28,11 +29,11 @@ function About() {
           <li><a href="https://www.linkedin.com/in/reyan-jimenez-750bb7238/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
           <li><a href="mailto:reyanjimenez@gmail.com" target="_blank" rel="noopener noreferrer">Email</a></li>
         </ul>
-        <a className="CV-button" href="/public/doc/CV.pdf" target="_blank" rel="noopener noreferrer">
+        <a className="CV-button" href={CV} target="_blank" rel="noopener noreferrer">
           {t('About_button')}
           <span class="material-symbols-outlined">download</span>
         </a>
-        <a className="CV-button-mob" href="/public/doc/CV.pdf" download="Reyan_Jimenez_CV.pdf" type="application/pdf" target="_blank" rel="noopener noreferrer">
+        <a className="CV-button-mob" href={CV} download="Reyan_Jimenez_CV.pdf" type="application/pdf" target="_blank" rel="noopener noreferrer">
           {t('About_button')}
           <span class="material-symbols-outlined">download</span>
         </a>
