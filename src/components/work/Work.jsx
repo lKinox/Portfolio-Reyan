@@ -6,6 +6,7 @@ import ginqoscreen from '/images/ginqo.jpeg';
 import dantdiver from '/images/dantdiver.jpeg';
 import fmpinilla from '/images/fmpinilla.jpeg';
 import serpis from '/images/serpis.jpeg';
+import codingsteam from '/images/codingsteam.png';
 import portfolio from '/images/portfolio.png';
 import Work_back from './Work_back';
 
@@ -52,7 +53,7 @@ function Work() {
               <Box_work name="Serpis" type="Web site" url="https://www.serpis.com/" img={serpis} tools="WordPress PHP HTML CSS JS WebDesign"/>
               <Box_work name="DantDive" type="Web site" url="https://dantdiver.com/" img={dantdiver} tools="WordPress PHP HTML CSS JS WebDesign"/>
               <Box_work name="FMPinilla" type="Web site" url="https://fmpinilla.com/" img={fmpinilla} tools="WordPress HTML CSS JS WebDesign"/>
-              <Box_work name="CodeSteam" type="Web site" url="" img="" tools="WordPress HTML CSS JS WebDesign"/>
+              <Box_work name="CodeSteam" type="Web site" url="https://codingsteam.com/" img={codingsteam} tools="HTML CSS JS WebDesign"/>
             </div>
           </div>
           <div className={ activeButton === 2 ? 'active' : 'Work-row-off' }>
