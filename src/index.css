@@ -32,6 +32,11 @@ h1 {
   line-height: 1.1;
 }
 
+p {
+  font-size: 1.2em;
+  text-align: left;
+}
+
 .dark-mode {
   background: #121417;
   color: #FFF;
@@ -52,5 +57,15 @@ h1 {
 @media screen and (max-width:425px) {
   h1 {
     font-size: 2.5em;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+
   }
 }

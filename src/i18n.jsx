@@ -21,15 +21,18 @@ i18n
           Nav_about: 'Sobre Mí',
           Nav_resume: 'Habilidades',
           Nav_experience: 'Experiencia',
-          Nav_work: 'Trabajo',
+          Nav_work: 'Trabajos',
           Nav_contact: 'Contacto',
           // Header
 
           // About
           About_h1: 'Hola, Soy Reyan',
           About_p: 'Desarrollador web full-stack',
+          About_button: 'Descargar CV',
           About_h2: "Sobre mí",
-          About_text: "Me apasiona el desarrollo web y la informática en general. Tengo habilidades para el front-end y el back-end, soy detallista con los desarrollos que hago y me gusta que sean profesionales y útiles. Mi lenguaje favorito para programar es Python, aunque de igual manera sé usar PHP. Tengo un nivel alto en maquetación (HTML) y estillos (CSS), sé usar JS para crear funcionalidades y animaciones en los desarrollos que hago. Para las bases de datos me gusta usar MySQL, SQLite y Firebase. Además constantemente me encuentro aprendiendo nuevas herramientas que me permitan mejorar los trabajos que hago y expandir mis capacidades para realizar cosas más complejas. A parte de la programación, me gustan mucho las matemáticas y la música.",
+          About_text_1: "Tengo 24 años, soy de Venezuela. Inicié en el mundo del desarrollo web de manera autodidacta haciendo cursos y experimentando por mi cuenta.",
+          About_text_2: "Tengo mas de 2 años de experiencia desarrollando para empresas y de manera freelance con diferentes tecnologías. Me gusta aprender nuevas herramientas que pueda integrar a mi trabajo y mejorar en los conocimientos que tengo.",
+          About_text_3: "Mi hobbie es la música y mi instrumento favorito es el piano 🎹.",
           // About
 
           // Resume
@@ -39,7 +42,7 @@ i18n
           Year: 'Año',
           Resume_h3_back: 'Back-End:',
           Resume_h3_db: 'Bases de Datos:',
-          Resume_h3_devops: 'DevOps',
+          Resume_h3_devops: 'Otras herramientas',
           // Resume
 
           // Experience
@@ -60,6 +63,8 @@ i18n
           // Work
           Work_h2: 'Trabajos',
           Work_text: '¡Estos son algunos proyectos destacados que he realizado!',
+          Work_back_kall: 'Una aplicación web desarrollada con Flask que utiliza la plataforma Telnyx para ofrecer una gestión flexible y escalable de las comunicaciones salientes. La aplicación incluye envío masivo de SMS, llamadas con IVR habilitado y registro detallado de llamadas.',
+          Work_back_apirest: 'Esta API REST, construida con Flask y protegida con JWT (JSON Web Tokens), usa como base de datos a Firebase. Proporciona funcionalidades básicas de registro, inicio de sesión y gestión de usuarios.',
           // Work
 
           // Contact
@@ -79,15 +84,18 @@ i18n
           Nav_about: 'About me',
           Nav_resume: 'Skills',
           Nav_experience: 'Experience',
-          Nav_work: 'Work',
+          Nav_work: 'Works',
           Nav_contact: 'Contact',
           // Header
 
           // About
           About_h1: "Hi, I'm Reyan",
           About_p: 'Full-stack web developer',
+          About_button: 'Download CV',
           About_h2: "About me",
-          About_text: "I'm passionate about web development and computing in general. I have front-end and back-end skills, I'm very detail-oriented with the developments I do and I like them to be professional and useful. My favorite language for programming is Python, although I also know how to use PHP. I have a high level in layout (HTML) and styles (CSS), I know how to use JS to create functionalities and animations in the developments I do. For databases I like to use MySQL, SQLite and Firebase. In addition, I am constantly learning new tools that allow me to improve the work I do and expand my capabilities to do more complex things. Apart from programming, I really like math and music.",
+          About_text_1: "I am 24 years old, I am from Venezuela. I started in the world of web development as a self-taught person, taking courses and experimenting on my own.",
+          About_text_2: "I have more than 2 years of experience developing for companies and as a freelancer with different technologies. I like to learn new tools that I can integrate into my work and improve the knowledge I have.",
+          About_text_3: "My hobby is music and my favorite instrument is the piano. 🎹.",
           // About
 
           // Resume
@@ -97,7 +105,7 @@ i18n
           Year: 'Year',
           Resume_h3_back: 'Back-End:',
           Resume_h3_db: 'Data bases:',
-          Resume_h3_devops: 'DevOps',
+          Resume_h3_devops: 'Other tools',
           // Resume
 
           // Experience
@@ -118,6 +126,8 @@ i18n
           // Work
           Work_h2: 'Jobs',
           Work_text: 'These are some of the highlights of my projects!',
+          Work_back_kall: 'A web application built with Flask that utilizes the Telnyx platform to offer flexible and scalable outbound communication management. The application features bulk SMS sending, IVR-enabled calls, and detailed call logging.',
+          Work_back_apirest: 'This REST API, built with Flask and secured with JWT (JSON Web Tokens), uses Firebase as its database. It provides basic registration, login, and user management functionality.',
           // Work
 
           // Contact

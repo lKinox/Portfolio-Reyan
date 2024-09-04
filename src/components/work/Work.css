@@ -4,12 +4,56 @@
     align-items: flex-start;
 }
 
+.Work .Work-row-off{
+    display: none;
+}
+
+.Work .active{
+    display: grid !important;
+    animation: fadeInUp .6s ease-in-out;
+    width: 100%;
+}
+
+.Work .Btn-row{
+    list-style-type: none;
+    display: flex !important;
+    padding: 0px;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 30px;
+    gap: 10px;
+}
+
+.Work .Btn-row .active{
+    background: #293036;
+    transform: scale(1.1);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    animation: none;
+}
+
+.Work .Btn-row li button{
+    background: #1C2126;
+    padding: 8px 6px;
+    border-radius: 10px;
+    border: 1px solid #475569;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.Work .Btn-row li:hover button{
+    background: #293036;
+    transform: scale(1.1);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
 .Work .Work-row{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 20px;
     grid-row-gap: 40px;
+    animation: fadeInUp .6s ease-in-out;
 }
 
 .Work .Work-row .Box_work{
@@ -101,19 +145,12 @@
 }
 
 .Work .Work-row-back .Box_work_back {
-    margin: 40px 0px 0px 0px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-}
-
-.Work .Work-row-back .Box_work_back {
-    margin: 40px 0px 0px 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
+    height: 100%;
+    justify-content: space-between;
 }
 
 .Work .Work-row-back .Box_work_back .img_work_back {

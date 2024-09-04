@@ -23,7 +23,7 @@
 
 .Box_experience .Box_experience_first p {
     margin: 15px 0px;
-    font-size: 12px;
+    font-size: 16px;
     text-align: start;
 }
 
@@ -128,7 +128,7 @@
 @media screen and (max-width:425px) {
     .Box_experience {
         flex-direction: column-reverse;
-        margin: 50px 0px;
+        margin: 50px 0px 0px 0px;
     }
     .Box_experience .Box_experience_last img {
         max-width: 200px;

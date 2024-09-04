@@ -7,7 +7,7 @@
 .Resume .Resume-row {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(8, 1fr);
     grid-column-gap: 20px;
     grid-row-gap: 20px;
 }
@@ -25,7 +25,7 @@
     background: #1C2126;
     border-radius: 10px;
     border: 1px solid #3D4754;
-    padding: 20px;
+    padding: 14px;
     box-shadow: 0px 6px 6px 2px rgba(50, 50, 50, 0);
     transition: box-shadow .6s ease-in-out;
     color: #FFFFFF !important;
@@ -36,10 +36,10 @@
 }
 
 .Resume .Resume-row .Box_resume img{
-    max-width: 60px;
+    max-width: 50px;
     height: auto;
-    min-height: 60px;
-    max-height: 60px;
+    min-height: 50px;
+    max-height: 50px;
     object-fit: contain;
     pointer-events: none;
     transform: scale(1);
@@ -95,7 +95,7 @@
 
 @media screen and (max-width:1024px) {
     .Resume .Resume-row {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(6, 1fr);
     }
 }
 
@@ -103,16 +103,22 @@
     .Resume .Resume-row .Box_resume h2{
         font-size: 15px;
     }
+    .Resume .Resume-row .Box_resume h4{
+        margin: 10px 0px;
+    }
 }
 
 @media screen and (max-width:425px) {
     .Resume .Resume-row {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         grid-column-gap: 14px;
         grid-row-gap: 14px;
     }
     .Resume .Resume-row .Box_resume {
-        padding: 16px;
+        padding: 10px;
+    }
+    .Resume .Resume-row .Box_resume h4{
+        margin: 10px 0px;
     }
     .Resume .Resume-row .Box_resume .progress-text {
         font-size: 12px;

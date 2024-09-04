@@ -16,6 +16,11 @@ function Contact() {
             <a href="mailto:reyanjimenez@gmail.com" target='_blank'>Email</a>
             <a href="https://wa.me/584122532702" target='_blank'>Whatsapp</a>
           </div>
+          <h2>reyanjimenez@gmail.com</h2>
+          <a className="CV-button" href="/public/doc/CV.pdf" target="_blank" rel="noopener noreferrer">
+            {t('About_button')}
+            <span class="material-symbols-outlined">download</span>
+          </a>
         </div>
       </div>
     );

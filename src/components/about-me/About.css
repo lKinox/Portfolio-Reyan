@@ -1,5 +1,5 @@
 .About {
-    background: url(/public/about.jpeg);
+    background: url(/public/about.webp);
     background-size: cover;
     background-repeat: no-repeat;
     width: auto;
@@ -10,20 +10,112 @@
     justify-content: center;
     align-items: center;
     border-radius: 12px;
-    gap: 10px
+    gap: 10px;
+    animation: fadeInUp 2s ease-in-out;
 }
 
-.About h1, .About p {
+.About h1, .About h3 {
     margin: 0px;
     color: #FFFFFF;
 }
+
+.About h2 {
+    text-align: flex-init;
+}
+
+.About ul {
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.About ul li {
+    background: #1C2126;
+    padding: 8px 6px;
+    border-radius: 10px;
+    border: 1px solid #475569;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.About ul li:hover {
+    background: #293036;
+    transform: scale(1.1);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.About ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.About .CV-button {
+    font-size: 16px;
+    background: #1466B8;
+    color: #FFFFFF;
+    padding: 8px 12px;
+    border-radius: 10px;
+    border: 1px solid #FFFFFF;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.About .CV-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
 
 .About-box {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin-top: 60px;
+
 }
 
-.About-box p{
-    text-align: justify;
+.About-box .About-box-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
 }
+
+.About-box .About-box-row div{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.About-box .About-box-row div p{
+    text-align: left;
+}
+
+.About-box .About-box-row .About-box-col1 {
+    max-width: 360px;
+    width: 100%;
+}
+
+.About-box .About-box-row .About-box-col2 {
+    max-width: 400px;
+    width: 100%;
+}
+
+.About-box .About-box-row .About-box-col1 div{
+    width: 100%;
+}
+
+@media screen and (max-width:425px) {
+    .About-box .About-box-row {
+        flex-direction: column;
+    }
+}
+
