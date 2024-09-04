@@ -6,7 +6,7 @@ import flaskIcon from '/icons/flask.png';
 import firebaseIcon from '/icons/firebase.png';
 
 function Box_work_back({ name, type, url, text, img, tools }) {
-    const { isDarkMode, toggleTheme } = useContext(ThemeContext);
+    const { isDarkMode } = useContext(ThemeContext);
     const toolsArray = tools.split(' ');
     const imgArray = img.split(' ');
 

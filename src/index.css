@@ -40,11 +40,13 @@ p {
 .dark-mode {
   background: #121417;
   color: #FFF;
+  transition: background 0.5s ease-in-out, color 0.3s ease-in-out;
 } 
 
 .light-mode {
   background: #FFF;
   color: #121417;
+  transition: background 0.5s ease-in-out, color 0.3s ease-in-out;
 }
 
 @media (prefers-color-scheme: light) {
