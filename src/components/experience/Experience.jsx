@@ -55,7 +55,7 @@ function Experience() {
           <Box_experience year="08/2023 - 04/2024" exp_name="Trifecta" position={t('Web_developer_full')} description={t('Trifecta_text')} url="" project="Kalld" tools="HTML CSS JS PHP Wordpress Python Flask SQLite Bootstrap cPanel WHM WebDesign" image={deafulLogo} />
           <Box_experience year="01/2023 - 10/2023" exp_name="Elitellca" position={t('Web_developer_full')} description={t('Elitellca_text')} url="https://elitellca.com/" project="Elitellca" tools="HTML CSS JS PHP Wordpress Python Flask SQLite Bootstrap WebDesign" image={elitellcaLogo} />
           <Box_experience year="06/2022 - 01/2023" exp_name="Posa Studio Creativo" position={t('Web_developer_full')} description={t('PosaStudio_text')} url="https://www.comunicacionvisual.com" tools="HTML CSS JS PHP Wordpress MySQL Bootstrap WebDesign" image={posastudioLogo} />
-          <Box_experience year="04/2022 - 08/2022" exp_name="Coding Steam" position={t('Web_developer')} description={t('CodeStream_text')} url="https://codingsteam.com" tools="HTML CSS JS" image={codingsteamLogo} />
+          <Box_experience year="04/2022 - 08/2022" exp_name="Coding Steam" position={t('Web_developer')} description={t('CodeStream_text')} url="https://codingsteam.com" project="CodingSteam" tools="HTML CSS JS" image={codingsteamLogo} />
       </div>
     </div>
   );

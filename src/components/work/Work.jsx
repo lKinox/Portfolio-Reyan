@@ -53,7 +53,7 @@ function Work() {
               <Box_work name="Serpis" type="Web site" url="https://www.serpis.com/" img={serpis} tools="WordPress PHP HTML CSS JS WebDesign"/>
               <Box_work name="DantDive" type="Web site" url="https://dantdiver.com/" img={dantdiver} tools="WordPress PHP HTML CSS JS WebDesign"/>
               <Box_work name="FMPinilla" type="Web site" url="https://fmpinilla.com/" img={fmpinilla} tools="WordPress HTML CSS JS WebDesign"/>
-              <Box_work name="CodeSteam" type="Web site" url="https://codingsteam.com/" img={codingsteam} tools="HTML CSS JS WebDesign"/>
+              <Box_work name="CodingSteam" type="Web site" url="https://codingsteam.com/" img={codingsteam} tools="HTML CSS JS WebDesign"/>
             </div>
           </div>
           <div className={ activeButton === 2 ? 'active' : 'Work-row-off' }>
