@@ -70,6 +70,7 @@
     border: 1px solid #475569;
     background: #1C2126;
     object-position: right top;
+    pointer-events: none;
 }
 
 .Work .Work-row .Box_work a{

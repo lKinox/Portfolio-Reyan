@@ -6,7 +6,7 @@ import ginqoscreen from '/images/ginqo.jpeg';
 import dantdiver from '/images/dantdiver.jpeg';
 import fmpinilla from '/images/fmpinilla.jpeg';
 import serpis from '/images/serpis.jpeg';
-import portfolio from '/images/portfolio.jpeg';
+import portfolio from '/images/portfolio.png';
 import Work_back from './Work_back';
 
 function Box_work({ name, type, url, img, tools }) {
