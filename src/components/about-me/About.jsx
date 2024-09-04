@@ -32,6 +32,10 @@ function About() {
           {t('About_button')}
           <span class="material-symbols-outlined">download</span>
         </a>
+        <a className="CV-button-mob" href="/public/doc/CV.pdf" download="Reyan_Jimenez_CV.pdf" target="_blank" rel="noopener noreferrer">
+          {t('About_button')}
+          <span class="material-symbols-outlined">download</span>
+        </a>
       </div>
       <div id="about-me" className="About-box">
         <h2>{t('About_h2')}</h2>

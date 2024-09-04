@@ -49,9 +49,10 @@ function Work() {
             <div className={`Work-row ${ activeButton === 1 ? 'active' : 'Work-row-off' }`}>
               <Box_work name="Portfolio" type="Web site" url="https://reyanj.netlify.app/" img={portfolio} tools="React HTML CSS JS WebDesign"/>
               <Box_work name="Ginqo" type="Web site" url="https://ginqopetfood.com" img={ginqoscreen} tools="WordPress PHP HTML CSS JS"/>
+              <Box_work name="Serpis" type="Web site" url="https://www.serpis.com/" img={serpis} tools="WordPress PHP HTML CSS JS WebDesign"/>
               <Box_work name="DantDive" type="Web site" url="https://dantdiver.com/" img={dantdiver} tools="WordPress PHP HTML CSS JS WebDesign"/>
               <Box_work name="FMPinilla" type="Web site" url="https://fmpinilla.com/" img={fmpinilla} tools="WordPress HTML CSS JS WebDesign"/>
-              <Box_work name="Serpis" type="Web site" url="https://www.serpis.com/" img={serpis} tools="WordPress PHP HTML CSS JS WebDesign"/>
+              <Box_work name="CodeSteam" type="Web site" url="" img="" tools="WordPress HTML CSS JS WebDesign"/>
             </div>
           </div>
           <div className={ activeButton === 2 ? 'active' : 'Work-row-off' }>

@@ -37,11 +37,37 @@ p {
   text-align: left;
 }
 
+
+/* IDEA BACKGROUND CUADRICULADO
+.dark-back {
+  background: #121417 !important;
+  --color: rgba(114, 114, 114, 0.3) !important;;
+  background-color: #121417  !important;
+  background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),
+      linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent) !important;
+  background-size: 55px 55px !important;;
+  transition: all 0.5s ease-in-out, color 0.3s ease-in-out !important;
+} 
+*/
+
 .dark-mode {
   background: #121417;
   color: #FFF;
   transition: background 0.5s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* IDEA BACKGROUND CUADRICULADO
+.light-back {
+  background: #FFF !important;
+  --color: rgba(114, 114, 114, 0.3) !important;;
+  background-color: #FFF  !important;
+  background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),
+      linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent) !important;
+  background-size: 55px 55px !important;;
+  transition: all 0.5s ease-in-out, color 0.3s ease-in-out !important;;
 } 
+*/
+
 
 .light-mode {
   background: #FFF;

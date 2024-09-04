@@ -21,7 +21,7 @@ function App() {
 
   return (
     <ThemeContext.Provider value={{ isDarkMode, toggleTheme }}>
-      <div className={isDarkMode ? 'light-mode' : 'dark-mode' }>
+      <div className={isDarkMode ? 'light-mode light-back' : 'dark-mode dark-back' }>
         <div className={`header-container ${isDarkMode ? 'light-mode' : 'dark-mode' } `}>
           <Header />
         </div>
