@@ -12,7 +12,7 @@ function Box_work_back({ name, type, url, text, img, tools }) {
 
     return (
       <div id={name} className={`Box_work_back ${isDarkMode ? 'light-mode' : 'dark-mode' }`}>
-        <div>
+        <div className="Box_work_back_row">
           <div className="img_work_back">
               {imgArray.map((img) => (
                 <img src={img} alt={name} />

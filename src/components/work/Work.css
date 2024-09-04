@@ -154,6 +154,12 @@
     justify-content: space-between;
 }
 
+.Work .Work-row-back .Box_work_back .Box_work_back_row{
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start;
+}
+
 .Work .Work-row-back .Box_work_back .img_work_back {
     display: flex;
     justify-content: center;
