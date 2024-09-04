@@ -32,7 +32,7 @@ function About() {
           {t('About_button')}
           <span class="material-symbols-outlined">download</span>
         </a>
-        <a className="CV-button-mob" href="/public/doc/CV.pdf" download="Reyan_Jimenez_CV.pdf" target="_blank" rel="noopener noreferrer">
+        <a className="CV-button-mob" href="/public/doc/CV.pdf" download="Reyan_Jimenez_CV.pdf" type="application/pdf" target="_blank" rel="noopener noreferrer">
           {t('About_button')}
           <span class="material-symbols-outlined">download</span>
         </a>
