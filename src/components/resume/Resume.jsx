@@ -15,6 +15,8 @@ import sqliteLogo from '/icons/sqlite.png'
 import firebaseLogo from '/icons/firebase.png'
 import cpanelLogo from '/icons/cpanel.png'
 import gitLogo from '/icons/git.png'
+import mongoLogo from '/icons/mongodb.svg'
+import nodeLogo from '/icons/node.webp'
 import { useTranslation } from 'react-i18next'
 import ThemeContext from '../../ThemeContext';
 
@@ -50,12 +52,14 @@ function Resume() {
         <Box_resume skillName="Flask" img={flaskLogo} />
         <Box_resume skillName="Django" img={djangoLogo} />
         <Box_resume skillName="PHP" img={phpLogo} />
+        <Box_resume skillName="Node.js" img={nodeLogo} />
       </div>
       <h3>{t('Resume_h3_db')}</h3>
       <div className="Resume-row">
         <Box_resume skillName="MySQL" img={mysqlLogo} />
         <Box_resume skillName="SQLite" img={sqliteLogo} />
         <Box_resume skillName="Firebase" img={firebaseLogo} />
+        <Box_resume skillName="MongoDB" img={mongoLogo} />
       </div>
       <h3>{t('Resume_h3_devops')}</h3>
       <div className="Resume-row">

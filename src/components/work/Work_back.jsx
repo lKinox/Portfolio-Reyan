@@ -4,6 +4,8 @@ import { useTranslation } from 'react-i18next';
 import ThemeContext from '../../ThemeContext';
 import flaskIcon from '/icons/flask.png';
 import firebaseIcon from '/icons/firebase.png';
+import reactIcon from '/icons/react.svg';
+import mongoIcon from '/icons/mongodb.svg';
 
 function Box_work_back({ name, type, url, text, img, tools }) {
     const { isDarkMode } = useContext(ThemeContext);
@@ -39,8 +41,10 @@ function Work_back() {
       <div className="main-box">
         <div id="work" className="Work">
           <div className="Work-row-back">
-            <Box_work_back name="Kalld" type="Web app" text ={t('Work_back_kall')} url="https://github.com/lKinox/Kalld" img={flaskIcon} tools="Flask Telnyx Python HTML CSS JS Git"/>
+            <Box_work_back name="Kalld" type="Web app" text ={t('Work_back_kall')} url="https://github.com/lKinox/Kalld" img={flaskIcon} tools="Flask Telnyx Python HTML CSS JS Git"/>           
             <Box_work_back name="APIRest + JWT + Firebase" type="API" text ={t('Work_back_apirest')} url="https://github.com/lKinox/APIRest-Flask-JWT-Firebase" img={`${flaskIcon} ${firebaseIcon}`} tools="Flask Python Firebase"/>
+            <Box_work_back name="App Scrap" type="Web app" text ={t('Work_back_appscrap')} url="https://appscrap.netlify.app/" img={`${reactIcon} ${mongoIcon}`} tools="React NodeJS Express MongoDB Git"/>
+            <Box_work_back name="API Scrapy + MongoDB" type="API" text ={t('Work_back_apiscrap')} url="https://github.com/lKinox/App-Scrapy-and-MongoDB-for-App-Scrap" img={`${flaskIcon} ${mongoIcon}`} tools="Flask Python React NodeJS Express MongoDB Git"/>
           </div>
         </div>
       </div>

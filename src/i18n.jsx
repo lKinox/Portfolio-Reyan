@@ -26,13 +26,13 @@ i18n
           // Header
 
           // About
-          About_h1: 'Hola, Soy Reyan',
+          About_h1: 'Hola, soy Reyan',
           About_p: 'Desarrollador web full-stack',
           About_button: 'Descargar CV',
           About_h2: "Sobre mí",
           About_text_1: "Tengo 24 años, soy de Venezuela. Inicié en el mundo del desarrollo web de manera autodidacta haciendo cursos y experimentando por mi cuenta.",
           About_text_2: "Tengo mas de 2 años de experiencia desarrollando para empresas y de manera freelance con diferentes tecnologías. Me gusta aprender nuevas herramientas que pueda integrar a mi trabajo y mejorar en los conocimientos que tengo.",
-          About_text_3: "Mi hobbie es la música y mi instrumento favorito es el piano 🎹.",
+          About_text_3: "Mi hobbie es la música y mi instrumento favorito es el piano 🎹",
           // About
 
           // Resume
@@ -65,6 +65,8 @@ i18n
           Work_text: '¡Estos son algunos proyectos destacados que he realizado!',
           Work_back_kall: 'Una aplicación web desarrollada con Flask que utiliza la plataforma Telnyx para ofrecer una gestión flexible y escalable de las comunicaciones salientes. La aplicación incluye envío masivo de SMS, llamadas con IVR habilitado y registro detallado de llamadas.',
           Work_back_apirest: 'Esta API REST, construida con Flask y protegida con JWT (JSON Web Tokens), usa como base de datos a Firebase. Proporciona funcionalidades básicas de registro, inicio de sesión y gestión de usuarios.',
+          Work_back_appscrap: 'Esta aplicación web está desarrollada con React y NodeJS con Express. Recupera información de la base de datos usando Atlas MongoDB que a su vez recibe los datos de mi proyecto back-end "API Scrapy + MongoDB". El objetivo de esta aplicación es comparar precios de productos de los marketplace de supermercados',
+          Work_back_apiscrap: 'Esta API, construida con Flask usando la librería Scrapy y MongoDB como sistema de base de datos. Tiene como objetivo extraer datos de productos de marketplaces de supermercados y enviar los datos a la base de datos en MongoDB',
           // Work
 
           // Contact
@@ -95,7 +97,7 @@ i18n
           About_h2: "About me",
           About_text_1: "I am 24 years old, I am from Venezuela. I started in the world of web development as a self-taught person, taking courses and experimenting on my own.",
           About_text_2: "I have more than 2 years of experience developing for companies and as a freelancer with different technologies. I like to learn new tools that I can integrate into my work and improve the knowledge I have.",
-          About_text_3: "My hobby is music and my favorite instrument is the piano. 🎹.",
+          About_text_3: "My hobby is music and my favorite instrument is the piano. 🎹",
           // About
 
           // Resume
@@ -110,7 +112,7 @@ i18n
 
           // Experience
           Experience_h2: 'Experience',
-          Experience_text: 'Check out some of my experiences working with companies and freelancers!',
+          Experience_text: 'Check out some of my experiences working with companies and freelance!',
           Web_developer: "Web Developer",
           Web_developer_full: "Full-Stack Web Developer",
           CodeStream_text: "Responsible for developing and correcting layout, style and js code errors",
@@ -128,6 +130,8 @@ i18n
           Work_text: 'These are some of the highlights of my projects!',
           Work_back_kall: 'A web application built with Flask that utilizes the Telnyx platform to offer flexible and scalable outbound communication management. The application features bulk SMS sending, IVR-enabled calls, and detailed call logging.',
           Work_back_apirest: 'This REST API, built with Flask and secured with JWT (JSON Web Tokens), uses Firebase as its database. It provides basic registration, login, and user management functionality.',
+          Work_back_appscrap: 'This web application is developed with React and NodeJS with Express. It retrieves information from the database using Atlas MongoDB which in turn receives the data from my back-end project "Scrapy API + MongoDB". The goal of this application is to compare product prices from supermarket marketplaces.',
+          Work_back_apiscrap: 'This API, built with Flask using the Scrapy library and MongoDB as a database system, aims to extract product data from supermarket marketplaces and send the data to the MongoDB database.',
           // Work
 
           // Contact
