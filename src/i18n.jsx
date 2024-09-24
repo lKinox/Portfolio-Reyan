@@ -97,7 +97,7 @@ i18n
           About_h2: "About me",
           About_text_1: "I am 24 years old, I am from Venezuela. I started in the world of web development as a self-taught person, taking courses and experimenting on my own.",
           About_text_2: "I have more than 2 years of experience developing for companies and as a freelancer with different technologies. I like to learn new tools that I can integrate into my work and improve the knowledge I have.",
-          About_text_3: "My hobby is music and my favorite instrument is the piano. 🎹",
+          About_text_3: "My hobby is music and my favorite instrument is the piano 🎹",
           // About
 
           // Resume
