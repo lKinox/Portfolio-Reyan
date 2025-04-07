@@ -7,6 +7,7 @@ import posastudioLogo from '/icons/posastudio.webp'
 import elitellcaLogo from '/icons/elitellca.png'
 import waopressLogo from '/icons/waopress.png'
 import upworkLogo from '/icons/upwork.png'
+import betfineLogo from '/icons/betfine24.png'
 import deafulLogo from '/icons/code.png'
 
 function Box_experience({ year, exp_name, position, description, url, project, tools, image }) {
@@ -50,6 +51,7 @@ function Experience() {
         <p>{t('Experience_text')}</p>
       </div>
       <div className="Experience-row">
+          <Box_experience year={t("Betfine_years")} exp_name="Betfine24" position={t('Web_developer_full')} description={t("Betfine_text")} url="https://www.betfine24.com/" project="" tools="Python Flask HTML CSS JS PHP Wordpress WebDesign" image={betfineLogo} />
           <Box_experience year={t("Freelance_years")} exp_name="Freelance" position={t('Web_developer_full')} description="" url="https://acortar.link/wgSybK" tools="HTML CSS JS PHP Wordpress Python Flask WebDesign" image={upworkLogo} />
           <Box_experience year="03/2024 - 06/2024" exp_name="Waopress" position={t('Web_developer_full')} description={t('Waopress_text')} url="https://waopress.com" project="Ginqo" tools="HTML CSS JS PHP Wordpress Flutter Firebase cPanel WebDesign" image={waopressLogo} />
           <Box_experience year="08/2023 - 04/2024" exp_name="Trifecta" position={t('Web_developer_full')} description={t('Trifecta_text')} url="" project="Kalld" tools="HTML CSS JS PHP Wordpress Python Flask SQLite Bootstrap cPanel WHM WebDesign" image={deafulLogo} />

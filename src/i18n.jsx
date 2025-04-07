@@ -57,6 +57,8 @@ i18n
           Waopress_text: "Encargado de desarrollar websites y dar soporte a clientes de la empresa. Crear plugins y código a medida dedicado a WordPress.",
           Freelance_text: "Diferentes tipos de proyectos.",
           Freelance_years: "2022 - Presente",
+          Betfine_text: "Encargado de desarrollar de APIs, aplicaciones y websites de uso administrativo. Integración de software y soporte técnico general",
+          Betfine_years: "2024 - Presente",
           Project_dest: "Proyecto descatado:",
           // Experience
 
@@ -122,6 +124,8 @@ i18n
           Waopress_text: "Responsible for developing websites and supporting the company's clients. Responsible for creating plugins and custom code dedicated to WordPress.",
           Freelance_text: "Different types of projects.",
           Freelance_years: "2022 - Present",
+          Betfine_text: "Responsible for developing APIs, applications, and websites for administrative use. Software integration and general technical support.",
+          Betfine_years: "2024 - Present",
           Project_dest: "Featured project:",
           // Experience
 
