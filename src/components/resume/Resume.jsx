@@ -17,6 +17,7 @@ import cpanelLogo from '/icons/cpanel.png'
 import gitLogo from '/icons/git.png'
 import mongoLogo from '/icons/mongodb.svg'
 import nodeLogo from '/icons/node.webp'
+import nextLogo from '/icons/nextjs.png'
 import { useTranslation } from 'react-i18next'
 import ThemeContext from '../../ThemeContext';
 
@@ -43,6 +44,7 @@ function Resume() {
         <Box_resume skillName="HTML"img={htmlLogo} />
         <Box_resume skillName="CSS" img={cssLogo} />
         <Box_resume skillName="JS" img={jsLogo} />
+        <Box_resume skillName="Next" img={nextLogo} />
         <Box_resume skillName="React" img={reactLogo} />
         <Box_resume skillName="Wordpress" img={wordpressLogo} />
       </div>
